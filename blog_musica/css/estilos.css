@@ -1,0 +1,167 @@
+body {
+  background: grey;
+}
+
+/*-------------Menu superior------------*/
+
+#hder {
+  background: white;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#hizq {
+  background: white;
+  border-radius: 0px 10px 10px 0px;
+  text-align: right;
+}
+
+#logo {
+  width: 40%;
+  margin-left: 2vh;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+#redes {
+  width: 8%;
+  margin-right: 0vh;
+  margin-top: 29%;
+  margin-bottom: 1vh;
+}
+
+.nav-link {
+  color: White;
+  font-weight: 600;
+}
+
+#navbar {
+  background: pink;
+  border-radius: 10px;
+}
+
+/*-------------Articulos y Fotos------------*/
+
+#contenidos {
+  margin-top: 4vh;
+}
+
+#f1 {
+	float: right;
+	border: 2px solid #605B56;
+	margin: 3vh;
+	border-radius: 4px;
+}
+
+  #f2 {
+	float: left;
+	border: 2px solid #605B56;
+	margin: 3vh;
+	border-radius: 4px;
+}
+
+#f1 {
+  width: 32%;
+}
+
+#f2 {
+  width: 25%;
+  margin-top: 7vh;
+}
+
+#f3 {
+  width: 3rem;
+  margin-top: 0.5vh;
+}
+
+#chat {
+  display: flex;
+  margin-top: 3vh;
+}
+
+#t2 {
+  margin-top: 5vh;
+}
+
+#buscador {
+  display: flex;
+}
+
+#i1 {
+   padding-top: 5%;
+   font-size: 17px;
+   padding-right: 1vh;
+   background: white;
+   border-radius: 4px;
+   padding-left: 1.3vh;
+}
+
+.hover img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover img:hover {
+	opacity: .5;
+}
+
+/*-------------Media query------------*/
+
+@media (max-width: 577px) {
+
+  #hder {
+    background: white;
+    border-radius: 10px 10px 0px 0px;
+    max-height: 20vh;
+  }
+
+  #hizq {
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    max-height: 10vh;
+    text-align: center;
+  }
+
+  #logo {
+    width: 30%;
+    margin-left: 2vh;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  #redes {
+    width: 8%;
+    margin-right: 0vh;
+    margin-top: 5%;
+    margin-bottom: 1vh;
+  }
+
+  .nav-link {
+  font-size: 2.2vh;
+  }
+
+  #barlat {
+    display: none;
+  }
+  #f1, #f2 {
+    width: 90%;
+  }
+
+  #articulo1, #t1, #f1 {
+  	float: none;
+  }
+
+  #articulo2, #t2, #f2 {
+  	float: none;
+  }
+
+  #articulo1 {
+    display: flex; flex-direction: column;
+  }
+  #f1 {
+    order: 2;
+  }
+  #t1 {
+    order: 1;
+  }
+
+}
