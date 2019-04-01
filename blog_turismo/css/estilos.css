@@ -1,0 +1,271 @@
+
+/*-------------Fondo y generales------------*/
+body {
+  background: #bdbdbd;
+}
+
+.contenido {
+  margin-top: 0.6vh;
+}
+
+.image {
+  background: url(../img/torontowall.jpg);
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  top: 25vh;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: opacity(0.4);
+  -webkit-filter: opacity(0.4);
+}
+
+.contenido {
+  z-index: 2;
+  padding-top: 3vh;
+}
+
+#foto_head {
+  width: 30vh;
+  border-radius: 10px;
+  margin-top: 1vh;
+}
+
+#menu {
+  margin-top: 1.5%;
+}
+
+.btn {
+  float: right;
+  width: 15%;
+  height: 30px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1.5%;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: white;
+  font-family: verdana;
+  background-color: #e53935;
+}
+
+.btn:hover {
+  background-color: white;
+  color: red;
+}
+
+.btn:active {
+  background-color: #01579b;
+  color: white;
+}
+
+.btn:visited {
+  background-color: #757575;
+  color: white;
+}
+
+#slogan {
+  left: 300px;
+  padding-left: 10vh;
+  font-size: 5vh;
+  margin-top: 3vh;
+  font-family: Timmana;
+}
+/*-------------menu y links------------*/
+#redes {
+  width: 5vh;
+}
+
+.bar {
+    display: inline-block;
+}
+
+#linkredes {
+    display: inline-block;
+    width: 10vh;
+    height: 7vh;
+    margin-top: 1vh;
+}
+
+.hover img:hover {
+	opacity: .5;
+}
+
+#mid {
+  margin-top: 5vh;
+}
+/*-------------Fotos------------*/
+
+#museo {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+  border: 2px solid grey;
+}
+
+#puente {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+  border: 2px solid grey;
+}
+
+#cn_tower {
+  border-radius: 3px;
+  border: 2px solid grey;
+  margin-left: 15%;
+}
+
+#cityhall {
+  width: 80%;
+  border-radius: 3px;
+  border: 2px solid grey;
+  margin-top: 15%;
+  float: right;
+}
+
+#cn_tower2 {
+  width: 80%;
+  border-radius: 3px;
+  border: 2px solid grey;
+  float: right;
+  margin-top: 3vh;
+}
+
+#aquarium {
+  width: 25%;
+  border-radius: 3px;
+  margin: 2vh;
+  margin-right: 4vh;
+}
+
+#articulo, #texto_aqua, #aquarium {
+	float: left;
+}
+
+#autor {
+  width:50%;
+}
+
+#perfil {
+  border-bottom: solid grey 2px;
+}
+
+ .input-field label {
+   color: white;
+   font-size: 2vh;
+ }
+
+.input-field input[type=text]:focus + label {
+  color: blue;
+}
+
+.input-field .prefix.active {
+  color: grey;
+}
+
+#btn_send {
+  background-color: white;
+  color: black;
+  font-family: Timmana;
+}
+
+#btn_send:hover {
+  background-color: red;
+  color: white;
+}
+
+#btn_send:active {
+  background-color: #01579b;
+  color: white;
+}
+
+#btn_send:visited {
+  background-color: #757575;
+  color: white;
+}
+
+/*-------------Media query------------*/
+
+@media (max-width: 550px) {
+
+  .btn {
+    float: right;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: white;
+    font-family: Sarabun;
+  }
+
+  .btn {
+    width: 25%;
+  }
+
+  #foto_head {
+    width: 20vh;
+    border-radius: 10px;
+  }
+
+  #slogan {
+    left: 300px;
+    margin-top: 0vh;
+    padding-left: 1vh;
+    font-size: 3.5vh;
+  }
+
+  .image {
+    top: 16.6vh;
+  }
+
+  #foto_head {
+    width: 15vh;
+    margin-bottom: 4vh;
+  }
+
+  #mid {
+    margin-top: 0vh;
+  }
+
+  #bar {
+    display: none;
+  }
+
+  #cn_tower2 {
+    width: 100%;
+  }
+
+  #cn_tower {
+    margin-left: 1.1vh;
+    width: 95%;
+  }
+
+  #cityhall {
+    width: 100%;
+    margin-top: 6%;
+  }
+
+  #museo {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  #puente {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  #aquarium {
+    width: 100%;
+    margin-right: 0vh;
+    margin-left: 0vh;
+    margin-top: 0vh;
+    margin-bottom: 6vh;
+  }
+}
